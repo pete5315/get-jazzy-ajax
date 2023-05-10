@@ -35,7 +35,7 @@ function onReady() {
 
     $.ajax({
         type: 'GET',
-        url: '/album' //get the songListArray
+        url: '/album' //get the albumListArray
     }).then(function (response) {
         for (let i = 0; i < response.length; i++) { //run through the artist objects
             let album = response[i]; //set a variable equal to the ith object of the array
