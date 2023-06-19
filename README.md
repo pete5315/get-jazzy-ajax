@@ -1,3 +1,5 @@
+In class assignment to practice using AJAX.
+
 # Get Jazzy AJAX
 
 - Fork
